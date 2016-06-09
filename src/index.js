@@ -1,10 +1,18 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
-var Hello = require('./app/hello');
+
+var CommentBox = require('./app/commentbox');
+
+// var Hello = require('./app/hello');
 
 require('./index.less');
 
+// ReactDOM.render(
+//   <Hello/>,
+//   document.getElementById('root')
+// );
+
 ReactDOM.render(
-  <Hello/>,
-  document.getElementById('root')
+  <CommentBox />,
+  document.getElementById('content')
 );

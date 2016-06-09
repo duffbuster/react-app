@@ -1,7 +1,10 @@
 {
   "dependencies": {
     "react": "^15.0.1",
-    "react-dom": "^15.0.1"
+    "react-dom": "^15.0.1",
+    "body-parser": "^1.4.3",
+    "express": "^4.4.5",
+    "remarkable": "^1.6.2"
   },
   "devDependencies": {
     "react-addons-test-utils": "^15.0.1",
@@ -51,6 +54,10 @@
     "serve:dist": "gulp serve:dist",
     "test": "gulp test",
     "test:auto": "gulp test:auto"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/duffbuster/react-app.git"
   },
   "eslintConfig": {
     "root": true,
