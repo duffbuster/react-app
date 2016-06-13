@@ -12,7 +12,12 @@ require('./index.less');
 //   document.getElementById('root')
 // );
 
+var data = [
+  {id: 1, author: "Pete Hunt", text: "This is some comment"},
+  {id: 2, author: "Jordan Walke", text: "This is *another* comment"}
+];
+
 ReactDOM.render(
-  <CommentBox />,
+  <CommentBox url="http://localhost:3001/api/comments" pollInterval={2000} />,
   document.getElementById('content')
 );

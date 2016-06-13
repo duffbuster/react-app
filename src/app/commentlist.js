@@ -4,11 +4,17 @@ var Comment = require('./comment');
 
 module.exports = React.createClass({
   render: function() {
+    var commentNodes = this.props.data.map(function(comment) {
+        return (
+            <Comment author={comment.author} key={comment.id}>
+                {comment.text}
+            </Comment>
+        );
+    });
     return (
-      <div className="commentList">
-        <Comment author="Pete Hunt">This is one comment</Comment>
-        <Comment author="Jordan Walke">This is *another* comment</Comment>
-      </div>
+        <div className="commentList">
+            {commentNodes}
+        </div>
     );
   }
 });

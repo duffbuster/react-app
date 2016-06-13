@@ -8,5 +8,25 @@
         "id": 1420070400000,
         "author": "Paul O’Shannessy",
         "text": "React is *great*!"
+    },
+    {
+        "id": 1234562000,
+        "author": "Colin",
+        "text": "Hello World!"
+    },
+    {
+        "id": 1465847863206,
+        "author": "bob",
+        "text": "hi"
+    },
+    {
+        "id": 1465847884384,
+        "author": "Colin",
+        "text": "This is my second comment"
+    },
+    {
+        "id": 1465848058344,
+        "author": "Colin",
+        "text": "this is a new comment"
     }
 ]
